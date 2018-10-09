@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 3</title>
+</head>
+<body>
+  <form>
+    <p>Entrez votre message</p>
+    <input type="text" name="reponse" id="reponse"/><br /><br />
+    <input type="submit" onClick="surface();" />
+  </form>
+  <script>
+  function surface()
+  {
+    var surface = document.getElementById("reponse").value;
+    alert(surface);
+  }
+  </script>
+</body>
+</html>
